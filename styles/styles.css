@@ -1,0 +1,177 @@
+/*start body*/
+body {
+    background-color: paleturquoise;
+    color: rgb(14, 15, 15);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 1,5cm;
+    margin: 0;
+    padding: 0;
+}
+/*End body*/
+
+/*start Debug*/
+.bg-plum{
+    background-color: plum;
+}
+
+.bg-lightsteelblue{
+    background-color: none;
+}
+/*End Debug*/
+
+/*start container*/
+.container{
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+.container full{
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+/*End container*/
+
+/*Start Logo*/
+.logo {
+    text-align: center;
+}
+/*End Logo*/
+
+/*Start Menu Primer*/
+.menu-primer ul{
+    background-color: thistle;
+    border-radius: 4px;
+    box-shadow: rgb(110, 105, 110);
+    
+}
+.menu-primer li {
+    border-right: 1px solid whitesmoke;
+    display: inline-block; 
+    margin: 0 --4px;
+}
+
+.menu-primer a{
+    color: rgb(37, 35, 37);
+    font-size: 15px;
+    display: inline-block;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+    .menu-primer a:hover{
+        background-color: rgb(243, 242, 243);
+        color: white;
+        text-decoration: none;
+    }
+
+    .menu-primer .active{
+       background-color: white;
+       color: thistle;
+       text-decoration: none;
+    }
+/*End Menu Primer*/
+
+/*Start Anchor / Hyperlink*/
+a:link
+a:visited {
+    color: lightsteelblue;
+    text-decoration: none;
+}
+a:hover
+a:active{
+    color: rgb(18, 29, 43);
+    text-decoration: underline;
+}
+/*End Anchor / Hyperlink*/
+
+/*Start main*/
+.main-home-one {
+    float: left;
+    width: 50%;
+}
+
+.main-home-two {
+    float: right;
+    width: 50%;
+}
+
+.main-home-one .box-isi{
+    height: 113px;
+}
+.main-home-two .box-isi 
+/*End main*/
+
+/*Start Box*/
+.box-heading {
+    background-color: lightskyblue;
+    border: navajowhite;
+    border-radius: 3px 3px 0 0;
+    margin: 0 -4px;
+    padding: 10px 20px;
+    text-transform: lowercase;
+}
+.box-heading h4{
+    background-color: rgb(252, 191, 250);
+    border: 1px solid rgb(253, 250, 252);
+    border-top: 0;
+    font-size: 18px;
+    margin: 0;
+    padding: 10px;
+}
+
+.box-isi{
+    background-color: mistyrose;
+    border: 1px solid rgb(253, 250, 252);
+    border-top: 0;
+    margin: 0;
+    padding: 10px 20px;
+}
+/*End Box*/
+
+/*Start Menu Skunder*/
+
+
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three{
+    float: left;
+}
+.menu-sekunder-one{
+    width:40% ;
+    
+}
+.menu-sekunder-two{
+    width: 30%;
+}
+.menu-sekunder-three{
+    width: 30%;  
+}
+.menu-sekunder-three .box-isi{
+    height: 142px;
+}
+.menu-sekunder-two .box-isi{
+    height: 142px;
+}
+.menu-sekunder-one .box-isi{
+    height: 142px;
+}
+/*End Menu Sekunder*/
+
+/*Start Alamat*/
+.alamat{
+    text-align: center;
+}
+/*End Alamat*/
+
+/*Start Copyright*/
+.copyright{
+    font-size: 15px;
+    text-align: center;
+}
+/*End Copyright*/
+
+*{box-sizing:border-box}
+    
+
